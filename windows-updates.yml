@@ -9,3 +9,4 @@
         - UpdateRollups
         - DefinitionUpdates
       reboot: yes
+      reboot_timeout: 3600
