@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: Install latest notepadplusplus version
+    win_chocolatey:
+      name: notepadplusplus
+      state: latest
