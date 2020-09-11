@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: "{{ hostgroup }}"
   tasks:
   - name: Install all security, critical, rollup, and definition updates without a scheduled task
     win_updates:
