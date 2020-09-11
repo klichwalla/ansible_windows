@@ -8,4 +8,4 @@
         - CriticalUpdates
         - UpdateRollups
         - DefinitionUpdates
-    reboot: yes
+      reboot: yes
